@@ -108,6 +108,12 @@ input {
         padding-left: 2px;
         padding-right: 2px;
     }
+    .imgcliente {
+
+    }
+    .menorletra {
+        font-size: medium !important;
+    }
 }
 
 
