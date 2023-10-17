@@ -112,7 +112,8 @@ input {
 
     }
     .menorletra {
-        font-size: medium !important;
+        font-size:x-large !important;
+        height: 40px;
     }
 }
 
