@@ -108,14 +108,16 @@ input {
         padding-left: 2px;
         padding-right: 2px;
     }
-    .imgcliente {
-
+    .letracontato {
+        font-size: medium !important;
     }
     .menorletra {
         font-size:xx-large !important;
         height: 30px;
     }
 }
+
+
 
 
 /*Fim Seção 1*/
