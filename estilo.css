@@ -109,13 +109,12 @@ input {
         padding-right: 2px;
     }
     .letracontato {
-        padding-top: 20px;
+        padding-top: 15px;
         font-size: small !important;
-        
     }
     .menorletra {
         font-size:x-large !important;
-       
+        height: 40px;
     }
 }
 
