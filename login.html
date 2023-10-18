@@ -14,32 +14,30 @@
       <header class="row " >
         <nav class="navbar navbar-expand-lg bg-dark px-3 m-auto " >
           <section class="container-fluid col-lg-md-sm-2">
-            <a class="navbar-brand text-white fs-1 px-2 letra" href="index.html" title="Link para a página inicial.">
-              <img src="./img/Imagem1.png" height="50" class="d-inline-block align-text-bottom" alt="Um avião entre as nuvens.">Vamos Viajar</a>
+            <a class="navbar-brand text-white fs-1 px-2 letra  menorletra" href="index.html" title="Link para a página inicial.">
+              <img src="./img/Imagem1.png" height="50" class="d-inline-block align-text-bottom menorletra" alt="Um avião entre as nuvens.">Vamos Viajar</a>
                    
-              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-              </button> 
+              
 
-            <section class="collapse navbar-collapse px-0 mx-0 col-md-sm-9  justify-content-end" id="navbarSupportedContent">
+            <section class="collapse navbar-collapse px-0 mx-0 col-md-sm-9 justify-content-end" id="navbarSupportedContent">
               <ul class="nav letra">
                 <li class="nav-item ">
-                  <a class="nav-link active text-white  " aria-current="page" href="index.html" title="Link pra página inicial.">Home</a>
+                  <a class="nav-link active text-white letracontato" aria-current="page" href="index.html" title="Link pra página inicial.">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white " href="Destino.html" title="Link para a página de destinos.">Destino</a>
+                  <a class="nav-link text-white letracontato" href="Destino.html" title="Link para a página de destinos.">Destino</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="Promoções.html" title="Link para a página de promoções.">Promoções</a>
+                  <a class="nav-link text-white letracontato" href="Promoções.html" title="Link para a página de promoções.">Promoções</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="contato.html" title="link para a página de contato.">Contato</a>
+                  <a class="nav-link text-white letracontato" href="contato.html" title="link para a página de contato.">Contato</a>
                 </li>
               </ul>
             </section>
-            <div class="col-md-sm-1 mt-3 mx-0 pb-3">
+            <div class="col-md-sm-1 mt-3 px-0 justify-content-end mx-0 pb-3">
               <div class="dropdown">
-                  <button class="btn dropdown" type="button" id="dropdownMenuButton1"
+                  <button class="btn dropdown " type="button" id="dropdownMenuButton1"
                       data-bs-toggle="dropdown" aria-expanded="false">
                       <img src="img/img001.png" alt="" style="height: 2rem">
                   </button>
@@ -47,6 +45,9 @@
                       <li><a class="dropdown-item" href="login.html">Acessar conta</a></li>
                       <li><a class="dropdown-item" href="cadastro.html">Criar conta</a></li>
                   </ul>
+                  <button class="navbar-toggler px-1 mx-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon px-0 mx-0"></span>
+                  </button> 
               </div>
           </div>
 
@@ -57,50 +58,14 @@
 
       <!--Começo da Main-->
       <main class="row justify-content-center ">
-        <!--Começo da seção 1 da Main-->
-        <section class=" row m-0  masthead bgimg-sessao1 justify-content-center">
-                
-          <div class="card estilo-card align-self-center">
-            <form class="card-bodyy  form-inline">
-              <legend >Encontre a passagem que cabe no seu bolso!</legend>
-                <label for="" class="mr-sm-2 form-label">Escolha uma opção:</label>
-                <input type="radio" id="ida" value="apenasida" name="ida_volta" class="form-check-input" >
-                <label for="ida"  class="mr-sm-2 form-check-label ">Apenas Ida</label>
-
-                <input type="radio" id="ida-volta" value="ida-volta" name="ida_volta" class="mr-sm-2 form-check-input" >
-                <label for="ida-volta" class="form-check-label">Ida e volta</label>
-
-                <p>
-                  <input type="text" id="indo" placeholder="Digite onde é seu destino!" class="form-control-sm form">
-                  <label class="form-label"><img src="./img/seta-circular (1).png" alt="Símbolo de troca, significa que os destinos serão trocados."></label>
-                  <input type="text" id="voltando" placeholder="Digite seu local de retorno!" class="form-control-sm mb-2 mr-sm-2 form ">
-
-                  <label for="dataida" class="form-label imgdata"><img src="./img/icons8-avião-decolando-40.png" alt="Imagem de avião decolando."></label>
-                  <input type="date" id="dataida" class="form-control-sm formdata">
-                  <label for="datavolta" class="form-label imgdata"><img src="./img/icons8-avião-pousando-40.png" alt="Imagem de avião pousando."></label>
-                  <input type="date" id="datavolta" class="form-control-sm formdata">
-                 
-                  <label for="viajantes" class="form-label">Viajantes</label>
-                  <select id="viajantes" class="viajantes text-white form-select-sm" name="viajantes">
-                    <option value="1" class="viajantes">1</option>
-                    <option value="2">2</option>
-                   <option value="3">3</option>
-                  </select>
-                  <a href="Promoções.html" title="Link de promoções."><input type="button" name="buscar-voos" value="Buscar Voos" class="button btn btnsm text-white border-waning p-1 px-2   "></a>
-                </p>
-            </form>
-          </div>
-        </section>
-        <!--Fim da seção 1 da Main-->
-
-        <!--Começo da seção 2 da Main-->
+       
         <section class=" row m-0 col-9 masthead2 justify-content-center ">
                 
 
             <div class= "conteudo">
     
 
-                <!-- Formulário de Login e criação de conta -->
+         
            <div class="bg-white d-flex justify-content-center align-items-center vh-100">
            <div class="bg-white p-5 rounded-5 text-secondary shadow" style="width: 30rem">
                <div class="d-flex justify-content-center">
@@ -157,7 +122,7 @@
 
           </div>
 
-          <!--Fim da seção 2 da Main-->
+         
       </main>
       <!--Fim da Main-->
       
