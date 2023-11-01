@@ -73,19 +73,23 @@
                   </div>
 
                   <div class="text-center fs-1 letra">Cadastro</div>
-                      <div class="input-group pt-4 ">
+                      <div class="input-group pt-4 mb-2">
                           <div class="input-group-text">
                               <i class="bi bi-person-circle"></i>
                           </div>
                           <input class="form-control bg-light" type=number placeholder="CPF" required>
                       </div>
-
-                      <div class="input-group pt-4">
+                      <div id="passwordHelpBlock" class="form-text ">
+                        <i>Digite seu nome sem acentos!</i>
+                       </div>
+                      <div class="input-group pt-">
                         <div class="input-group-text">
                             <i class="bi bi-person-circle"></i>
                         </div>
                         <input class="form-control bg-light" type="text" placeholder="Nome completo" required>
+                        
                     </div>
+                   
 
                     <div class="input-group pt-4">
                       <div class="input-group-text">
@@ -128,11 +132,15 @@
                         </div>
                   </div>
 
-                  <button class="btn button btn-primary text-white w-100 mb-4 mt-4 fw-semibold shadow-sm fs-5" >
+                  <button class="btn button btn-primary text-white w-100  mt-4 fw-semibold shadow-sm fs-5" >
                     
                       Cadastrar
                   </button>
-                  
+
+                  <div class="d-flex gap-1 justify-content-center mt-2 pt-0 mb-4">
+                    <div>Já é cadastrado?</div>
+                    <a href="login.html" class="text-decoration-none text-primary fw-semibold"><i>Login</i></a>
+                </div>
                   
                   
               </div>
